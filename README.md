@@ -55,6 +55,22 @@ in wait time** vs fixed-timer baseline on unbalanced traffic scenario.
     ├── results/            # Training logs and comparison plots
     └── config.py           # All hyperparameters in one place
 
+## 🎬 Demonstration
+
+### Streamlit Dashboard
+Run the interactive dashboard to see all results and charts:
+
+    streamlit run dashboard.py
+
+### SUMO GUI Visual Demo
+Watch DQN vs Fixed Timer controlling traffic live:
+
+    python demo_gui.py
+
+### Side by Side GIF Comparison
+![Fixed Timer vs DQN](results/gifs/fixed_timer.gif)
+![DQN Agent](results/gifs/dqn_agent.gif)
+
 ## 📚 Reference
 
 Based on [IntelliLight: A Reinforcement Learning Approach for Intelligent Traffic Light Control](https://www.researchgate.net/publication/326504263_IntelliLight_A_Reinforcement_Learning_Approach_for_Intelligent_Traffic_Light_Control) — Wei et al., KDD 2018.
